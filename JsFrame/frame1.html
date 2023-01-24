@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+   
+   <head>
+      <title>HTML Frames</title>
+	  <script>
+	  function goTo(){
+	  parent.frames[1].location ="frame2.html";
+	  }
+	  </script>
+   </head>
+   
+    <body>
+   <h1> this is frame 1</h1>
+	   <from>
+			<input type="button" value= "1" onclick="parent.frames[1].location='frame1.html'"><br>
+			<input type="button" value= "2" onclick="goTo()"><br>
+			<input type="button" value= "3" onclick="parent.frames[1].location='frame3.html'"><br>
+	   
+	   </from>
+   </body>
+    
+   
+</html>
